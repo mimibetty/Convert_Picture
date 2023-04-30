@@ -3,6 +3,7 @@ Convert PNG to rgb matrix     and   rgb matrix to png
 
 
 install library: 
+```
 pip install Pillow
 ```
 Note: Pillow is a fork of PIL that adds some additional features and is more actively maintained. It can be used as a drop-in replacement for PIL.
@@ -18,6 +19,7 @@ To create an executable file using PyInstaller, you can follow these steps:
 Install PyInstaller by running the following command in your terminal or command prompt:
 
 Copy
+```
 pip install pyinstaller
 ```
 
@@ -26,6 +28,7 @@ Navigate to the directory where your Python program is located.
 Run the following command to create an executable file:
 
 Copy
+```
 pyinstaller --onefile your_script_name.py
 ```
 
